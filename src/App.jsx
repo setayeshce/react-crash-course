@@ -1,8 +1,10 @@
+import PostsLists from "./components/PostsList";
 function App() {
   return (
-     <h1>Hello world</h1>
-  )
+  <main>
+    <PostsLists />
+    </main>);
 }
 
-export default App
+export default App;
 
